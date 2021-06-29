@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function QuotesComponent_div_3_Template(rf, ctx) { if (rf & 1) {
+function QuotesComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
@@ -54,15 +54,12 @@ class QuotesComponent {
     }
 }
 QuotesComponent.ɵfac = function QuotesComponent_Factory(t) { return new (t || QuotesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_api_quotes_service__WEBPACK_IMPORTED_MODULE_1__["ApiQuotesService"])); };
-QuotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: QuotesComponent, selectors: [["app-quotes"]], decls: 4, vars: 1, consts: [[1, "row"], ["class", "card col-md-3", "style", "width: 100%;", 4, "ngFor", "ngForOf"], [1, "card", "col-md-3", 2, "width", "100%"], [1, "card-body"], [1, "card-title"], [1, "card-text"]], template: function QuotesComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "quotes works!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, QuotesComponent_div_3_Template, 9, 3, "div", 1);
+QuotesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: QuotesComponent, selectors: [["app-quotes"]], decls: 2, vars: 1, consts: [[1, "row"], ["class", "card col-md-3", "style", "width: 100%;", 4, "ngFor", "ngForOf"], [1, "card", "col-md-3", 2, "width", "100%"], [1, "card-body"], [1, "card-title"], [1, "card-text"]], template: function QuotesComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, QuotesComponent_div_1_Template, 9, 3, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.quotes);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJxdW90ZXMuY29tcG9uZW50LmNzcyJ9 */"] });
 
